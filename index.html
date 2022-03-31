@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!--mь-->
+	<title>Морской бой</title>
+	<style type="text/css">
+		.box{
+			height: 55px;
+			width: 55px;
+			border: 1px solid black;
+		}
+		.box1{
+			height: 55px;
+			width: 57px;
+			text-align: center;
+			font-family: Arial;
+		}
+		.adult{
+			display: flex;
+		}
+		.win{
+			display: none;
+		}
+	</style>
+</head>
+<body style="display: flex;">
+	<img src="win.png" class="win">
+	<div>
+		<h1 style="color: red;" class="h">Главный корабль</h1>
+		<h1 style="color: orange;" class="h1">Большие корабли <span class="span">2</span></h1>
+		<h1 style="color: yellow;" class="h2">Маленькие корабли <span class="span1">3</span></h1>
+		<h1 style="color: lime;" class="h3">Катеры <span class="span2">4</span></h1>
+	</div>
+	<div style="margin-left: 50px;" class="pole">
+		<div class="adult">
+			<div class="box1"></div>
+			<div class="box1">
+				<h3>1</h3>
+			</div>
+			<div class="box1">
+				<h3>2</h3>
+			</div>
+			<div class="box1">
+				<h3>3</h3>
+			</div>
+			<div class="box1">
+				<h3>4</h3>
+			</div>
+			<div class="box1">
+				<h3>5</h3>
+			</div>
+			<div class="box1">
+				<h3>6</h3>
+			</div>
+			<div class="box1">
+				<h3>7</h3>
+			</div>
+			<div class="box1">
+				<h3>8</h3>
+			</div>
+			<div class="box1">
+				<h3>9</h3>
+			</div>
+			<div class="box1">
+				<h3>10</h3>
+			</div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>A</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch3"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>B</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch2"></div>
+			<div class="box touch2"></div>
+			<div class="box miss"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>C</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box touch1"></div>
+			<div class="box touch1"></div>
+			<div class="box touch1"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>D</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>E</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch3"></div>
+			<div class="box miss"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>F</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch2"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>G</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch2"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch"></div>
+			<div class="box miss"></div>
+			<div class="box touch2"></div>
+			<div class="box miss"></div>
+			<div class="box touch3"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>H</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch2"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>I</h3>
+			</div>
+			<div class="box touch1"></div>
+			<div class="box touch1"></div>
+			<div class="box touch1"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+		</div>
+		<div class="adult">
+			<div class="box1">
+				<h3>J</h3>
+			</div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box touch3"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+			<div class="box miss"></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let score = 0
+		let scr = 0
+		let scr1 = 0
+		let scr2 = 0
+		let scr3 = 0
+		let tch = document.querySelectorAll(".touch")
+		let hehe = document.querySelectorAll(".miss")
+		let tch1 = document.querySelectorAll(".touch1")
+		let tch2 = document.querySelectorAll(".touch2")
+		let tch3 = document.querySelectorAll(".touch3")
+		for(let i=0; i<4; i=i+1){
+			tch[i].onclick = function(){
+				score = score + 1
+				scr = scr + 1
+				alert("Попал!")
+				tch[i].style.background = "red"
+				if(scr == 4){
+					alert("Ты утопил главный корабль!")
+					document.querySelector(".h").style.textDecoration = "line-through"
+				}
+				if(score == 20){
+					alert("Ты утопил все корабли!")
+					document.querySelector(".pole").style.display = "none"
+					document.querySelector(".win").style.display = "block"
+				}
+			}
+		}
+		for(let i=0; i<6; i=i+1){
+			tch1[i].onclick = function(){
+				score = score + 1
+				scr1 = scr1 + 1
+				alert("Попал!")
+				tch1[i].style.background = "orange"
+				if(scr1 == 6){
+					alert("Ты утопил все большие корабли!")
+					document.querySelector(".h1").style.textDecoration = "line-through"
+					document.querySelector('.span').innerHTML = ''
+				}
+				if(scr1 == 3){
+					document.querySelector('.span').innerHTML = 1
+				}
+				if(score == 20){
+					alert("Ты утопил все корабли!")
+					document.querySelector(".pole").style.display = "none"
+					document.querySelector(".win").style.display = "block"
+				}
+			}
+		}
+		for(let i=0; i<6; i=i+1){
+			tch2[i].onclick = function(){
+				score = score + 1
+				scr2 = scr2 + 1
+				alert("Попал!")
+				tch2[i].style.background = "yellow"
+				if(scr2 == 6){
+					alert("Ты утопил все маленькие корабли!")
+					document.querySelector(".h2").style.textDecoration = "line-through"
+					document.querySelector('.span1').innerHTML = ''
+				}
+				if(scr2 == 2){
+					document.querySelector('.span1').innerHTML = 2
+				}
+				if(scr2 == 4){
+					document.querySelector('.span1').innerHTML = 1
+				}
+				if(score == 20){
+					alert("Ты утопил все корабли!")
+					document.querySelector(".pole").style.display = "none"
+					document.querySelector(".win").style.display = "block"
+				}
+			}
+		}
+		for(let i=0; i<4; i=i+1){
+			tch3[i].onclick = function(){
+				score = score + 1
+				scr3 = scr3 + 1
+				alert("Попал!")
+				tch3[i].style.background = "lime"
+				if(scr3 == 4){
+					alert("Ты утопил все катеры!")
+					document.querySelector(".h3").style.textDecoration = "line-through"
+					document.querySelector('.span2').innerHTML = ''
+				}
+				if(scr3 == 1){
+					document.querySelector('.span2').innerHTML = 3
+				}
+				if(scr3 == 2){
+					document.querySelector('.span2').innerHTML = 2
+				}
+				if(scr3 == 3){
+					document.querySelector('.span2').innerHTML = 1
+				}
+				if(score == 20){
+					alert("Ты утопил все корабли!")
+					document.querySelector(".pole").style.display = "none"
+					document.querySelector(".win").style.display = "block"
+				}
+			}
+		}
+		for(let i=0; i<80; i=i+1){
+			hehe[i].onclick = function(){
+				hehe[i].style.backgroundImage = "url(miss.png)"
+				hehe[i].style.backgroundSize = "100% 100%"
+				alert("Промахнулся!")
+			}
+		}
+	</script>
+</body>
+</html>
